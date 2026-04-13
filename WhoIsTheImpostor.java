@@ -1,9 +1,9 @@
 import java.util.Random;
 import java.util.Scanner;
 import java.util.InputMismatchException;
-public class Main
+public class WhoIsTheImpostor
 {
-	public static void Whoistheimpostor(String[] args)throws InterruptedException {
+	public static void main(String[] args)throws InterruptedException {
 	    //variables
 		Random random = new Random();
 		Scanner scanner = new Scanner(System.in);
