@@ -60,16 +60,16 @@ public class WhoIsTheImpostor
 		        
 		        for(int i = 1; i<=numPlayer; i++){
 		            if(i == impostor){
-		                System.out.printf("\rPlayer:%d You are the impostor", i);
+		                System.out.printf("\rPlayer:%d You are the impostor                        ", i);
 		                Thread.sleep(5000);
-		                System.out.printf("\r*******PASS THE PHONE NOW!!**********");
+		                System.out.printf("\r*****************PASS THE PHONE NOW!!********************");
 		                Thread.sleep(7000);
 		                continue;
 		            }
 		            else{
-		                System.out.printf("\rPlayer:%d Your word is: %s", i, word[numWord]);
+		                System.out.printf("\rPlayer:%d Your word is:                             %s", i, word[numWord]);
 		                Thread.sleep(5000);
-		                System.out.printf("\r*******PASS THE PHONE NOW!!**********");
+		                System.out.printf("\r*****************PASS THE PHONE NOW!!********************");
 		                Thread.sleep(7000);
 		                continue;
 		            }
